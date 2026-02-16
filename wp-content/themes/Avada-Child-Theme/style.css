@@ -1,0 +1,134 @@
+/*
+Theme Name: Avada Child
+Description: Child theme for Avada theme
+Author: ThemeFusion
+Author URI: https://theme-fusion.com
+Template: Avada
+Version: 1.0.0
+Text Domain:  Avada
+*/
+
+#formspinner {
+    display: none;
+}
+
+#formspinner.showloader {
+    display: block;
+}
+
+#floatwhatsapp {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+.gs_logo_single img {
+	width: 210px;
+	height: 250px;
+	object-fit: scale-down;
+}
+.vaam-contact-main h4 {
+	margin-block: 0 17px;
+}
+.vaam-contact-inner .fusion-column.content-box-column {
+	margin-block-end: 10px;
+}
+.tax-productcat #main .fusion-flex-container {
+    display: block;
+}
+.fusion-imageframe img {
+	width: 500px;
+	height: 250px;
+	object-fit: scale-down;
+}
+.tax-productcat .fusion-tabs .nav-tabs li .fusion-tab-heading {
+    font-size: 18px !important;
+}
+.col .vaam-contact-wrapper p {margin-block-end: 10px;}
+#catSlider {
+    padding: 0px;
+}
+
+#catSlider .fusion-image-wrapper.hover-type-none,
+#catSlider .fusion-image-wrapper.hover-type-none img {
+    width: 100%;
+}
+
+.gt_filter_gallery .row {
+    justify-content: space-between;
+}
+
+.gt_filter_gallery .ufg-parent-filters button {
+    padding: 10px !important;
+}
+
+.gt_filter_gallery button.ufg-parent-filter-button {
+    background-color: #093454 !important;
+    border-color: #093454 !important;
+}
+
+.termidtab-17 .fusion-fullwidth.fullwidth-box .fusion-builder-row.fusion-row {
+    display: grid;
+}
+
+.termidtab-17 .fusion-fullwidth.fullwidth-box .fusion-builder-row.fusion-row .title-heading-left {
+    display: none;
+}
+
+.termidtab-17 .fusion-fullwidth.fullwidth-box .fusion-builder-row.fusion-row .fusion-layout-column:first-child {
+    order: 2;
+    width: 100%;
+}
+
+.termidtab-17 .fusion-fullwidth.fullwidth-box .fusion-builder-row.fusion-row .fusion-layout-column:nth-child(2) {
+    order: 1;
+    width: 100%;
+}
+
+.imagegallery li {
+    list-style-type: none;
+}
+
+.imagegallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    list-style-type: none;
+    gap: 1rem;
+}
+
+.orderingproduct:first-child {
+    order: 2;
+}
+
+.orderingproduct:nth-child(2) {
+    order: 1;
+}
+
+.productlistdiv {
+    display: flex !important;
+}
+
+.productlistdiv .fusion-layout-column.fusion_builder_column {
+    padding: 20px;
+}
+
+#productCatTabs .fusion-column-wrapper.fusion-column-has-shadow {
+    margin: 0;
+    padding: 0;
+}
+
+
+@media only screen and (mix-width:320px) and (max-width:691px) {
+    .imagegallery {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (max-width: 782px){
+    .awb-background-mask{
+        display: none;
+    }
+    body .vaam-footer-copyright .fusion-column-wrapper, .vaam-footer-copyright .fusion-column-wrapper .fusion-text {
+        text-align: center;
+        justify-content: center;
+        gap: 21px;
+    }
+}

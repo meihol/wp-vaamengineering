@@ -1,0 +1,18 @@
+/* LESS preprocessor */
+.pfg {
+	@import (less) 'bootstrap-4.5.2/css/bootstrap-admin.css';
+}
+
+.multiselect-container {
+	height: 250px;
+	overflow: hidden;
+	overflow-y: scroll;
+}
+
+.ufg-steps {
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	margin-bottom: 2%;
+	margin-right: 35px;
+}
