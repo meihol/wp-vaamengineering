@@ -185,7 +185,14 @@ function tabsCp(){
 }
 add_shortcode( 'tabscp', 'tabsCp' );
 
-echo "Hello";
+add_filter('editable_roles', function($roles){
+    if(isset($roles['administrator'])){
+        unset($roles['administrator']);
+    }
+    return $roles;
+});
+
+
 add_action('user_register', function(){
     wp_die('User registration is disabled.');
 });
