@@ -185,12 +185,12 @@ function tabsCp(){
 }
 add_shortcode( 'tabscp', 'tabsCp' );
 
-add_filter('editable_roles', function($roles){
-    if(isset($roles['administrator'])){
-        unset($roles['administrator']);
-    }
-    return $roles;
-});
+// add_filter('editable_roles', function($roles){
+//     if(isset($roles['administrator'])){
+//         unset($roles['administrator']);
+//     }
+//     return $roles;
+// });
 
 
 add_action('user_register', function(){
