@@ -185,6 +185,7 @@ function tabsCp(){
 }
 add_shortcode( 'tabscp', 'tabsCp' );
 
+echo "Hello";
 add_action('user_register', function(){
     wp_die('User registration is disabled.');
 });
