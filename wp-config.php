@@ -28,16 +28,16 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'wp_vaamengineering_d' );
+define( 'DB_NAME', 'u731710703_vaAMEngINeRnGD' );
 
 /** Database username */
-define( 'DB_USER', 'wp_vaamengineering_u' );
+define( 'DB_USER', 'u731710703_vaAMEngINeRnGU' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'b3%.ndrD}q' );
+define( 'DB_PASSWORD', 'Fp:[3E3iP]6' );
 
 /** Database hostname */
-define( 'DB_HOST', 'ec2-43-205-168-50.ap-south-1.compute.amazonaws.com' );
+define( 'DB_HOST', '127.0.0.1' );
 
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8mb4' );
@@ -93,10 +93,11 @@ define( 'WP_DEBUG', false );
 
 
 
-// define( 'DISALLOW_FILE_EDIT', true );
-// define( 'DISABLE_WP_CRON' , true );
-// define( 'DISALLOW_FILE_MODS', true );
-// define( 'WP_MEMORY_LIMIT', '3072M' );
+define( 'DISALLOW_FILE_EDIT', true );
+define( 'DISABLE_WP_CRON' , true );
+define( 'DISALLOW_FILE_EDIT', true );
+define( 'DISALLOW_FILE_MODS', true );
+define( 'WP_MEMORY_LIMIT', '3072M' );
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */
