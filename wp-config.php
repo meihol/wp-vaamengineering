@@ -93,11 +93,10 @@ define( 'WP_DEBUG', false );
 
 
 
-define( 'DISALLOW_FILE_EDIT', true );
-define( 'DISABLE_WP_CRON' , true );
-define( 'DISALLOW_FILE_EDIT', true );
-define( 'DISALLOW_FILE_MODS', true );
-define( 'WP_MEMORY_LIMIT', '3072M' );
+// define( 'DISALLOW_FILE_EDIT', true );
+// define( 'DISABLE_WP_CRON' , true );
+// define( 'DISALLOW_FILE_MODS', true );
+// define( 'WP_MEMORY_LIMIT', '3072M' );
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */
